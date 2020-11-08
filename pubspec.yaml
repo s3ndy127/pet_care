@@ -1,0 +1,55 @@
+description: "A new Flutter application."
+name: "flutterapp"
+version: "1.0.0+1"
+dependencies: 
+  cupertino_icons: "^0.1.2"
+  path_drawing: "^0.4.1"
+  flutter: 
+    sdk: "flutter"
+dev_dependencies: 
+  flutter_test: 
+    sdk: "flutter"
+environment: 
+  sdk: ">=2.1.0 <3.0.0"
+flutter: 
+  assets: 
+    - "assets/images/"
+  fonts: 
+    - 
+      family: "Lato"
+      fonts: 
+        - 
+          asset: "fonts/Lato-italic.ttf"
+          style: "italic"
+          weight: 500
+        - 
+          asset: "fonts/Lato-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Lato-regular.ttf"
+          style: "normal"
+          weight: 500
+    - 
+      family: "Roboto"
+      fonts: 
+        - 
+          asset: "fonts/Roboto-900.ttf"
+          style: "normal"
+          weight: 900
+        - 
+          asset: "fonts/Roboto-italic.ttf"
+          style: "italic"
+          weight: 400
+        - 
+          asset: "fonts/Roboto-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Comfortaa"
+      fonts: 
+        - 
+          asset: "fonts/Comfortaa-regular.ttf"
+          style: "normal"
+          weight: 400
+  uses-material-design: true
